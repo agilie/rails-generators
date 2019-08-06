@@ -1,0 +1,8 @@
+Description:
+    Generator for the project documentation on the basis of Swagger
+
+Example:
+    rails generate skeleton:swagger
+
+    To generate swagger documentation run
+    rake rswag:specs:swaggerize

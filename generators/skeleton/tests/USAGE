@@ -1,0 +1,5 @@
+Description:
+    Generator for RSpec testing tools together with FactoryBot, coverage etc
+
+Example:
+    rails generate skeleton:tests

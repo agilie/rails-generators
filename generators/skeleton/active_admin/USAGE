@@ -1,0 +1,5 @@
+Description:
+    Generator for Admin Panel adding on the basis of Active Admin gem
+
+Example:
+    rails generate skeleton:active_admin

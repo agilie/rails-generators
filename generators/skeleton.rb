@@ -1,0 +1,2 @@
+module Skeleton
+end

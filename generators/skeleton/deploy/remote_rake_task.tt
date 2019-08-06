@@ -1,0 +1,16 @@
+
+
+namespace :rake_task do
+  desc 'Run a task on a remote server.'
+  # run like: cap staging rake_task:invoke task=a_certain_task
+  task :invoke do
+    abort 'No task provided' unless ENV['task']
+    on roles(:app) do
+      within current_path do
+        with rails_env: fetch(:rails_env) do
+          execute :rake, ENV['task']
+        end
+      end
+    end
+  end
+end

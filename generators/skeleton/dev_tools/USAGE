@@ -1,0 +1,5 @@
+Description:
+    Install list of usefull Developer Tools
+
+Example:
+    rails generate skeleton:dev_tools
